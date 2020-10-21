@@ -1,16 +1,799 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+    "menus": [
+        {
+            "id": "8cebcb4c-500b-45e1-920c-7364f41b632f",
+            "userId": "5f7dd16bb44b45ee356e01b5",
+            "title": "My first menu",
+            "photo": "https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "categories": [
+                {
+                    "id": "295dd5e9-9f59-4b16-b84e-c7d263733215",
+                    "title": "Первое блюдо",
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Борщ",
+                            "price": 100,
+                            "id": "85e32ca3-f56e-4f7f-8966-15a64122fec0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Ботвинья",
+                            "price": 120,
+                            "id": "0fa63ddb-47bf-4ac1-917d-3d7a43f30d7b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Окрошка",
+                            "price": 150,
+                            "id": "98d82741-5dbc-4227-83d4-bf8b6862ac4c",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        }
+                    ]
+                },
+                {
+                    "id": "3b9a7762-8922-47cb-870b-0efbc882f1e0",
+                    "title": "Основное блюдо",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Котлеты «Ласточкино гнездо»",
+                            "id": "70a1da00-4cc1-4653-9b57-bd9f440db792",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 100,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Свинина по-степному",
+                            "id": "46aaf4a5-ee6c-4899-b144-390820bbeae5",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 120,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Жареный картофель «Хозяйка отдыхает»",
+                            "id": "4c399dde-4dee-481c-8af9-e237f3f00e70",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 140,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        }
+                    ]
+                },
+                {
+                    "id": "44b763ea-9a05-4f7d-8556-70508dfd4b30",
+                    "title": "Закуски",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Глинтвейн",
+                            "id": "d85895f2-7011-44a3-96f8-025c3964bf8b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 60,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Молочный коктейль",
+                            "id": "d19b9393-21df-4f4b-a624-7ee658d672c1",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Мохито",
+                            "id": "ac8885a9-32ea-4e9e-92e3-2567e7ff6df7",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 70,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        }
+                    ]
+                },
+                {
+                    "id": "08851aa6-4d61-45b9-b9cb-2341271f0290",
+                    "title": "Напитки",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Бастурма",
+                            "id": "a93de500-49bd-448a-8064-7eaa480e3a05",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Гренки",
+                            "id": "69671063-ca4f-4ecc-81ed-4481bd8208c0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 45,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Бургер от шефа",
+                            "id": "759f2512-02a2-4f53-94dc-6753017f76c2",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 65,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "08ba1377-1c70-4f2f-9300-7e36edf5fe51",
+            "userId": "5f7dd16bb44b45ee356e01b5",
+            "title": "My first menu 2",
+            "photo": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "categories": [
+                {
+                    "id": "295dd5e9-9f59-4b16-b84e-c7d263733215",
+                    "title": "Первое блюдо",
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Борщ",
+                            "price": 100,
+                            "id": "85e32ca3-f56e-4f7f-8966-15a64122fec0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Ботвинья",
+                            "price": 120,
+                            "id": "0fa63ddb-47bf-4ac1-917d-3d7a43f30d7b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Окрошка",
+                            "price": 150,
+                            "id": "98d82741-5dbc-4227-83d4-bf8b6862ac4c",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        }
+                    ]
+                },
+                {
+                    "id": "3b9a7762-8922-47cb-870b-0efbc882f1e0",
+                    "title": "Основное блюдо",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Котлеты «Ласточкино гнездо»",
+                            "id": "70a1da00-4cc1-4653-9b57-bd9f440db792",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 100,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Свинина по-степному",
+                            "id": "46aaf4a5-ee6c-4899-b144-390820bbeae5",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 120,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Жареный картофель «Хозяйка отдыхает»",
+                            "id": "4c399dde-4dee-481c-8af9-e237f3f00e70",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 140,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        }
+                    ]
+                },
+                {
+                    "id": "44b763ea-9a05-4f7d-8556-70508dfd4b30",
+                    "title": "Закуски",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Глинтвейн",
+                            "id": "d85895f2-7011-44a3-96f8-025c3964bf8b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 60,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Молочный коктейль",
+                            "id": "d19b9393-21df-4f4b-a624-7ee658d672c1",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Мохито",
+                            "id": "ac8885a9-32ea-4e9e-92e3-2567e7ff6df7",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 70,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        }
+                    ]
+                },
+                {
+                    "id": "08851aa6-4d61-45b9-b9cb-2341271f0290",
+                    "title": "Напитки",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Бастурма",
+                            "id": "a93de500-49bd-448a-8064-7eaa480e3a05",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Гренки",
+                            "id": "69671063-ca4f-4ecc-81ed-4481bd8208c0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 45,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Бургер от шефа",
+                            "id": "759f2512-02a2-4f53-94dc-6753017f76c2",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 65,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8d2940c2-717f-4354-82c7-4df234e269a3",
+            "userId": "5f7dd16bb44b45ee356e01b5",
+            "title": "My first menu 3",
+            "photo": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
+            "categories": [
+                {
+                    "id": "295dd5e9-9f59-4b16-b84e-c7d263733215",
+                    "title": "Первое блюдо",
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Борщ",
+                            "price": 100,
+                            "id": "85e32ca3-f56e-4f7f-8966-15a64122fec0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Ботвинья",
+                            "price": 120,
+                            "id": "0fa63ddb-47bf-4ac1-917d-3d7a43f30d7b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Окрошка",
+                            "price": 150,
+                            "id": "98d82741-5dbc-4227-83d4-bf8b6862ac4c",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        }
+                    ]
+                },
+                {
+                    "id": "3b9a7762-8922-47cb-870b-0efbc882f1e0",
+                    "title": "Основное блюдо",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Котлеты «Ласточкино гнездо»",
+                            "id": "70a1da00-4cc1-4653-9b57-bd9f440db792",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 100,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Свинина по-степному",
+                            "id": "46aaf4a5-ee6c-4899-b144-390820bbeae5",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 120,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Жареный картофель «Хозяйка отдыхает»",
+                            "id": "4c399dde-4dee-481c-8af9-e237f3f00e70",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 140,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        }
+                    ]
+                },
+                {
+                    "id": "44b763ea-9a05-4f7d-8556-70508dfd4b30",
+                    "title": "Закуски",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Глинтвейн",
+                            "id": "d85895f2-7011-44a3-96f8-025c3964bf8b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 60,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Молочный коктейль",
+                            "id": "d19b9393-21df-4f4b-a624-7ee658d672c1",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Мохито",
+                            "id": "ac8885a9-32ea-4e9e-92e3-2567e7ff6df7",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 70,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        }
+                    ]
+                },
+                {
+                    "id": "08851aa6-4d61-45b9-b9cb-2341271f0290",
+                    "title": "Напитки",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Бастурма",
+                            "id": "a93de500-49bd-448a-8064-7eaa480e3a05",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Гренки",
+                            "id": "69671063-ca4f-4ecc-81ed-4481bd8208c0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 45,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Бургер от шефа",
+                            "id": "759f2512-02a2-4f53-94dc-6753017f76c2",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 65,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "780a4300-dd4f-4aa5-8ae0-630594f586f7",
+            "userId": "5f7dd16bb44b45ee356e01b5",
+            "title": "My first menu 4",
+            "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1335&q=80",
+            "categories": [
+                {
+                    "id": "295dd5e9-9f59-4b16-b84e-c7d263733215",
+                    "title": "Первое блюдо",
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Борщ",
+                            "price": 100,
+                            "id": "85e32ca3-f56e-4f7f-8966-15a64122fec0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Ботвинья",
+                            "price": 120,
+                            "id": "0fa63ddb-47bf-4ac1-917d-3d7a43f30d7b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Окрошка",
+                            "price": 150,
+                            "id": "98d82741-5dbc-4227-83d4-bf8b6862ac4c",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        }
+                    ]
+                },
+                {
+                    "id": "3b9a7762-8922-47cb-870b-0efbc882f1e0",
+                    "title": "Основное блюдо",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Котлеты «Ласточкино гнездо»",
+                            "id": "70a1da00-4cc1-4653-9b57-bd9f440db792",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 100,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Свинина по-степному",
+                            "id": "46aaf4a5-ee6c-4899-b144-390820bbeae5",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 120,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Жареный картофель «Хозяйка отдыхает»",
+                            "id": "4c399dde-4dee-481c-8af9-e237f3f00e70",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 140,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        }
+                    ]
+                },
+                {
+                    "id": "44b763ea-9a05-4f7d-8556-70508dfd4b30",
+                    "title": "Закуски",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Глинтвейн",
+                            "id": "d85895f2-7011-44a3-96f8-025c3964bf8b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 60,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Молочный коктейль",
+                            "id": "d19b9393-21df-4f4b-a624-7ee658d672c1",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Мохито",
+                            "id": "ac8885a9-32ea-4e9e-92e3-2567e7ff6df7",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 70,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        }
+                    ]
+                },
+                {
+                    "id": "08851aa6-4d61-45b9-b9cb-2341271f0290",
+                    "title": "Напитки",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Бастурма",
+                            "id": "a93de500-49bd-448a-8064-7eaa480e3a05",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Гренки",
+                            "id": "69671063-ca4f-4ecc-81ed-4481bd8208c0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 45,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Бургер от шефа",
+                            "id": "759f2512-02a2-4f53-94dc-6753017f76c2",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 65,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fab9dedb-5afd-43d1-955e-e6a73fc1ffe1",
+            "userId": "5f7dd16bb44b45ee356e01b5",
+            "title": "My first menu 5",
+            "photo": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+            "categories": [
+                {
+                    "id": "295dd5e9-9f59-4b16-b84e-c7d263733215",
+                    "title": "Первое блюдо",
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Борщ",
+                            "price": 100,
+                            "id": "85e32ca3-f56e-4f7f-8966-15a64122fec0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Ботвинья",
+                            "price": 120,
+                            "id": "0fa63ddb-47bf-4ac1-917d-3d7a43f30d7b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        },
+                        {
+                            "title": "Окрошка",
+                            "price": 150,
+                            "id": "98d82741-5dbc-4227-83d4-bf8b6862ac4c",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "categoryId": "295dd5e9-9f59-4b16-b84e-c7d263733215"
+                        }
+                    ]
+                },
+                {
+                    "id": "3b9a7762-8922-47cb-870b-0efbc882f1e0",
+                    "title": "Основное блюдо",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Котлеты «Ласточкино гнездо»",
+                            "id": "70a1da00-4cc1-4653-9b57-bd9f440db792",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 100,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Свинина по-степному",
+                            "id": "46aaf4a5-ee6c-4899-b144-390820bbeae5",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 120,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        },
+                        {
+                            "title": "Жареный картофель «Хозяйка отдыхает»",
+                            "id": "4c399dde-4dee-481c-8af9-e237f3f00e70",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 140,
+                            "categoryId": "3b9a7762-8922-47cb-870b-0efbc882f1e0"
+                        }
+                    ]
+                },
+                {
+                    "id": "44b763ea-9a05-4f7d-8556-70508dfd4b30",
+                    "title": "Закуски",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Глинтвейн",
+                            "id": "d85895f2-7011-44a3-96f8-025c3964bf8b",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 60,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Молочный коктейль",
+                            "id": "d19b9393-21df-4f4b-a624-7ee658d672c1",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        },
+                        {
+                            "title": "Мохито",
+                            "id": "ac8885a9-32ea-4e9e-92e3-2567e7ff6df7",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 70,
+                            "categoryId": "44b763ea-9a05-4f7d-8556-70508dfd4b30"
+                        }
+                    ]
+                },
+                {
+                    "id": "08851aa6-4d61-45b9-b9cb-2341271f0290",
+                    "title": "Напитки",
+                    "active": false,
+                    "visibility": true,
+                    "dishes": [
+                        {
+                            "title": "Бастурма",
+                            "id": "a93de500-49bd-448a-8064-7eaa480e3a05",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 30,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Гренки",
+                            "id": "69671063-ca4f-4ecc-81ed-4481bd8208c0",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 45,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        },
+                        {
+                            "title": "Бургер от шефа",
+                            "id": "759f2512-02a2-4f53-94dc-6753017f76c2",
+                            "description": "",
+                            "ingredients": "",
+                            "allergens": [],
+                            "weight": "",
+                            "price": 65,
+                            "categoryId": "08851aa6-4d61-45b9-b9cb-2341271f0290"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
